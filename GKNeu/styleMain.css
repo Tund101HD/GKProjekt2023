@@ -1,0 +1,115 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ededed;
+    
+}
+.body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.Container {
+    width: 100%;
+    min-width: 500px;
+    margin: 0px;
+}
+
+.MainContainer {
+    width: 100%;
+    height: 1100px;
+    min-width: 500px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #26a65b;
+}
+.main-img{
+    position: absolute;
+    height: 98%;
+    right: 50px;
+    top: 200px;
+}
+.text-container{
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    margin: 0px;
+    padding: 0px;
+    min-width: 500px;
+    object-fit: contain;
+}
+
+.header-text{
+    font-size: xx-large;
+    padding-left: 10%;
+}
+
+.sub-text{
+    font-size: x-large;
+    padding-left: 10%;
+}
+
+.Head {
+    width: 100%;
+    height: 150px;
+    font-size: xxx-large;
+    line-height: 150px;
+    background-color: #b32028;
+    text-align: center;
+    padding: 0px;
+    font-font: Arial, Helvetica, sans-serif;
+}
+
+
+.Desc{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.ListContainer{
+    position: absolute;
+    top: 400px;
+
+    width: 100%;
+    height: 200px;
+    scale: 105%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 500px;
+    object-fit: contain;
+}
+.ListHeader{
+    padding-left: 10%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.ul-main {
+    padding-left: 10%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ImpressumContainer{
+    background-color: #b32028;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    line-height: 150px;
+    min-width: 500px;
+    display: inline-block;
+}
+
+.sub{
+    margin-left: 150px;
+    font-size: xx-large;
+}
+
